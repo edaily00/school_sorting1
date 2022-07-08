@@ -1,8 +1,10 @@
 class TargetNotFound(Exception):
-    pass
+    """HEY"""
 
 
 def binary_search(a_list, target):
+
+
 
     first = 0
     last = len(a_list) - 1
@@ -14,5 +16,8 @@ def binary_search(a_list, target):
             last = middle - 1
         else:
             first = middle + 1
-        raise TargetNotFound
+    raise TargetNotFound
+
+
+
 
