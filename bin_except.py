@@ -2,7 +2,7 @@ class TargetNotFound(Exception):
     """HEY"""
 
 
-def binary_search(a_list, target):
+def bin_except(a_list, target):
 
 
 
