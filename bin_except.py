@@ -1,3 +1,7 @@
+#Author: Eric Daily
+#Github username: edaily00
+#Date: 7/9/2022
+#This program raises an exception if target value is not found
 class TargetNotFound(Exception):
     """HEY"""
 
